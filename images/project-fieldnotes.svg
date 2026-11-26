@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Fieldnotes Journal editorial illustration">
+  <defs>
+    <linearGradient id="fnBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2e7d5"/>
+      <stop offset="1" stop-color="#ddc9ac"/>
+    </linearGradient>
+    <clipPath id="fnPhoto">
+      <rect x="442" y="206" width="196" height="146" rx="2"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#fnBg)"/>
+  <circle cx="118" cy="110" r="86" fill="#e8c7b6" opacity="0.7"/>
+  <path d="M640 0h160v240c-68-18-126-70-160-140z" fill="#b85c3c" opacity="0.12"/>
+
+  <!-- stacked pages -->
+  <g transform="rotate(-8 400 330)">
+    <rect x="176" y="122" width="380" height="386" rx="4" fill="#d9c6aa"/>
+  </g>
+  <g transform="rotate(-3 400 330)">
+    <rect x="186" y="126" width="380" height="386" rx="4" fill="#eadbc3"/>
+  </g>
+
+  <!-- main page -->
+  <rect x="196" y="130" width="380" height="386" rx="3" fill="#fdfbf6"/>
+  <rect x="196" y="130" width="380" height="386" rx="3" fill="none" stroke="#2d211b" stroke-width="1" opacity="0.18"/>
+
+  <!-- page content -->
+  <text x="228" y="180" font-family="Arial, sans-serif" font-size="10" letter-spacing="4" fill="#b85c3c">FIELDNOTES  /  ISSUE 04</text>
+  <text x="228" y="235" font-family="Georgia, serif" font-size="38" font-style="italic" fill="#2d211b">The quiet</text>
+  <text x="228" y="274" font-family="Georgia, serif" font-size="38" font-style="italic" fill="#2d211b">places we keep</text>
+  <path d="M228 292h316" stroke="#c8a264" stroke-width="1"/>
+
+  <g clip-path="url(#fnPhoto)">
+    <rect x="442" y="206" width="196" height="146" fill="#dbc8ad"/>
+    <circle cx="580" cy="248" r="30" fill="#c8a264" opacity="0.85"/>
+    <path d="M442 352l56-70 44 46 42-56 54 80z" fill="#78805f" opacity="0.75"/>
+    <path d="M442 352l70-44 74 44z" fill="#4f5740" opacity="0.6"/>
+  </g>
+  <rect x="442" y="206" width="196" height="146" rx="2" fill="none" stroke="#2d211b" stroke-width="1" opacity="0.2"/>
+
+  <g stroke="#b8a894" stroke-width="3" opacity="0.75">
+    <path d="M228 386h188"/><path d="M228 404h162"/><path d="M228 422h188"/><path d="M228 440h118"/>
+  </g>
+  <g stroke="#b8a894" stroke-width="3" opacity="0.55">
+    <path d="M442 386h102"/><path d="M442 404h102"/>
+  </g>
+
+  <text x="228" y="485" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#7c6c5e">A journal of slow travel &amp; small details</text>
+  <circle cx="540" cy="478" r="22" fill="#b85c3c"/>
+  <text x="540" y="484" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#fdfbf6">04</text>
+
+  <text x="48" y="548" font-family="Georgia, serif" font-size="30" font-style="italic" fill="#2d211b">Fieldnotes Journal</text>
+  <text x="50" y="572" font-family="Arial, sans-serif" font-size="10" letter-spacing="4" fill="#7c6c5e">EDITORIAL  ·  2024</text>
+</svg>

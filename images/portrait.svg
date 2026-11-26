@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustrated placeholder portrait">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#f2e8d8"/>
+      <stop offset="1" stop-color="#e2cfb5"/>
+    </linearGradient>
+    <clipPath id="arch">
+      <path d="M108 1000V392c0-161 131-292 292-292s292 131 292 292v608z"/>
+    </clipPath>
+    <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="4" r="1" fill="#5a3d2b" opacity="0.06"/>
+      <circle cx="10" cy="11" r="0.8" fill="#5a3d2b" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+
+  <!-- decorative rings -->
+  <g fill="none" stroke="#b85c3c" opacity="0.18">
+    <circle cx="690" cy="140" r="88"/>
+    <circle cx="690" cy="140" r="118"/>
+    <circle cx="96" cy="818" r="62"/>
+    <circle cx="96" cy="818" r="92"/>
+  </g>
+  <g fill="#b85c3c" opacity="0.35">
+    <circle cx="660" cy="300" r="5"/>
+    <circle cx="130" cy="230" r="4"/>
+    <circle cx="700" cy="690" r="6"/>
+  </g>
+
+  <g clip-path="url(#arch)">
+    <rect x="100" y="90" width="600" height="910" fill="#dcc9af"/>
+    <circle cx="400" cy="390" r="228" fill="#eccbb9" opacity="0.78"/>
+
+    <!-- leafy details -->
+    <g fill="none" stroke="#78805f" stroke-width="3" opacity="0.5">
+      <path d="M156 690c42-22 62-62 58-110"/>
+      <path d="M164 650c-30-8-44-32-40-64 30 6 45 30 40 64z" fill="#78805f" fill-opacity="0.18"/>
+      <path d="M170 612c24-20 28-50 16-80-25 19-31 48-16 80z" fill="#78805f" fill-opacity="0.18"/>
+      <path d="M652 700c-40-26-56-66-48-112"/>
+      <path d="M644 662c30-12 42-38 36-70-30 10-44 36-36 70z" fill="#78805f" fill-opacity="0.18"/>
+    </g>
+
+    <!-- hair behind -->
+    <path d="M232 660c0-192 63-322 168-322s168 130 168 322v210H232z" fill="#3b2a22"/>
+
+    <!-- shoulders / clothing -->
+    <path d="M142 1010c20-182 112-278 258-278s238 96 258 278z" fill="#b85c3c"/>
+    <path d="M336 744l64 96 64-96-36-14-28 40-28-40z" fill="#f4ead9"/>
+    <path d="M400 840v170" stroke="#8e432d" stroke-width="2" opacity="0.45"/>
+
+    <!-- neck -->
+    <path d="M362 558h76v126c0 26-76 26-76 0z" fill="#d49a74"/>
+
+    <!-- face -->
+    <ellipse cx="400" cy="466" rx="97" ry="122" fill="#e0a982"/>
+    <circle cx="305" cy="478" r="15" fill="#d49a74"/>
+    <circle cx="495" cy="478" r="15" fill="#d49a74"/>
+    <ellipse cx="345" cy="492" rx="18" ry="10" fill="#c67f63" opacity="0.32"/>
+    <ellipse cx="455" cy="492" rx="18" ry="10" fill="#c67f63" opacity="0.32"/>
+
+    <!-- hair front -->
+    <path d="M300 470c-8-120 40-192 100-192s108 72 100 192c-16-56-34-94-64-114-34 32-92 44-150 30-6 27-1 58 14 84z" fill="#3b2a22"/>
+    <circle cx="400" cy="244" r="45" fill="#3b2a22"/>
+    <path d="M302 472c-20 58-10 126 18 166 8-50 2-112-18-166z" fill="#3b2a22"/>
+    <path d="M498 472c20 58 10 126-18 166-8-50-2-112 18-166z" fill="#3b2a22"/>
+
+    <!-- features -->
+    <g fill="none" stroke="#4a3327" stroke-width="3" stroke-linecap="round">
+      <path d="M352 448c12-9 26-9 38 0"/>
+      <path d="M410 448c12-9 26-9 38 0"/>
+      <path d="M362 473c10 7 20 7 30 0"/>
+      <path d="M408 473c10 7 20 7 30 0"/>
+      <path d="M400 482c-3 16-7 24-1 30 4 4 11 4 16 0" opacity="0.55"/>
+      <path d="M378 536c14 9 30 9 44 0"/>
+    </g>
+    <circle cx="376" cy="475" r="3.5" fill="#3b2a22"/>
+    <circle cx="424" cy="475" r="3.5" fill="#3b2a22"/>
+
+    <!-- earrings -->
+    <circle cx="303" cy="502" r="8" fill="#c8a264"/>
+    <circle cx="497" cy="502" r="8" fill="#c8a264"/>
+
+    <rect x="100" y="90" width="600" height="910" fill="url(#grain)"/>
+  </g>
+
+  <path d="M108 1000V392c0-161 131-292 292-292s292 131 292 292v608" fill="none" stroke="#b85c3c" stroke-width="2" opacity="0.5"/>
+
+  <!-- small caption -->
+  <g fill="#7c6c5e" font-family="Georgia, serif" font-size="17" letter-spacing="4">
+    <text x="400" y="72" text-anchor="middle">THARAA QAID</text>
+  </g>
+  <path d="M330 88h140" stroke="#b85c3c" stroke-width="1" opacity="0.6"/>
+</svg>
